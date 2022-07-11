@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>$Title$</title>
+  <title>TEST</title>
 </head>
 <body>
-Hello Spring World
+로그인
 </body>
 </html>
