@@ -1,16 +1,15 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: NESOY
-  Date: 2022-07-08
-  Time: 오전 11:41
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>$Title$</title>
+  <title>로그인</title>
 </head>
 <body>
-Hello Spring World
+<h2>로그인</h2>
+<form action="login" method="post">
+  학번: <input type="text" name="student_no"><br>
+  비밀번호: <input type="password" name="password"><br>
+  <input type="submit" value="로그인">
+  <input type='button' value='취소' onClick='location.href="<%=request.getContextPath()%>/student/list"'>
+</form>
 </body>
 </html>
